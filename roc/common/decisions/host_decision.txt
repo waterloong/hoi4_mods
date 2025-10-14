@@ -1,0 +1,2287 @@
+host_category = {
+	tech_decision = {
+		cost = 1
+		complete_effect = {
+			complete_special_project = sp:sp_air_bouncing_bomb
+			complete_special_project = sp:sp_air_earthshaker_bomb
+			complete_special_project = sp:sp_air_intercontinental_bomber
+			complete_special_project = sp:sp_air_mothership_aircraft
+			complete_special_project = sp:sp_air_jet_engine
+			complete_special_project = sp:sp_air_axial_jet_engine
+			complete_special_project = sp:sp_air_supersonic_jet
+			complete_special_project = sp:sp_air_helicopter
+			complete_special_project = sp:sp_land_flamethrower_tank
+			complete_special_project = sp:sp_land_military_engineering_vehicles
+			complete_special_project = sp:sp_land_land_cruiser
+			complete_special_project = sp:sp_land_super_heavy_howitzer
+			complete_special_project = sp:sp_land_self_propelled_super_heavy_howitzer
+			complete_special_project = sp:sp_land_super_heavy_railway_gun
+			complete_special_project = sp:sp_land_multi_charge_large_caliber_gun
+			complete_special_project = sp:sp_land_stronghold_network
+			complete_special_project = sp:sp_nuclear_reactor
+			complete_special_project = sp:sp_commercial_nuclear_reactor
+			complete_special_project = sp:sp_nuclear_engines
+			complete_special_project = sp:sp_nuclear_bomb
+			complete_special_project = sp:sp_thermo_nuclear_bomb
+			complete_special_project = sp:sp_nuclear_warheads
+			complete_special_project = sp:sp_naval_cruiser_submarine
+			complete_special_project = sp:sp_naval_fleet_submarine
+			complete_special_project = sp:sp_naval_nuclear_submarine
+			complete_special_project = sp:sp_naval_rocket_launching_submarine
+			complete_special_project = sp:sp_naval_nuclear_missile_submarine
+			complete_special_project = sp:sp_naval_nuclear_torpedo
+			complete_special_project = sp:sp_naval_midget_submarine
+			complete_special_project = sp:sp_naval_aip_engine
+			complete_special_project = sp:sp_naval_anechoic_tiles
+			complete_special_project = sp:sp_naval_torpedo_cruiser
+			complete_special_project = sp:sp_naval_super_heavy_battleship
+			complete_special_project = sp:sp_naval_modern_battleship
+			complete_special_project = sp:sp_naval_modern_carrier
+			complete_special_project = sp:sp_naval_ice_carrier
+			complete_special_project = sp:sp_naval_underway_replenishment
+			complete_special_project = sp:sp_naval_proximity_fuze
+			complete_special_project = sp:sp_air_radar
+			complete_special_project = sp:sp_rockets_flying_bomb
+			complete_special_project = sp:sp_rockets_ballistic_missile
+			complete_special_project = sp:sp_rockets_medium_range_ballistic_missile
+			complete_special_project = sp:sp_rockets_long_range_ballistic_missile
+			complete_special_project = sp:sp_rockets_ground_to_air_missile
+			complete_special_project = sp:sp_rocket_interceptor
+			set_technology = {
+				air_superiority = 1
+			}
+			set_technology = {
+				infrastructure_destruction = 1
+			}
+			set_technology = {
+				home_defence = 1
+			}
+			set_technology = {
+				naval_strike_tactics = 1
+			}
+			set_technology = {
+				fighter_sweeps = 1
+			}
+			set_technology = {
+				dogfighting_experience = 1
+			}
+			set_technology = {
+				multialtitude_flying = 1
+			}
+			set_technology = {
+				logistical_bombing = 1
+			}
+			set_technology = {
+				night_bombing = 1
+			}
+			set_technology = {
+				day_bombing = 1
+			}
+			set_technology = {
+				massed_bomber_formations = 1
+			}
+			set_technology = {
+				air_offense = 1
+			}
+			set_technology = {
+				flying_fortress = 1
+			}
+			set_technology = {
+				offensive_formations = 1
+			}
+			set_technology = {
+				mass_destruction = 1
+			}
+			set_technology = {
+				formation_flying = 1
+			}
+			set_technology = {
+				dive_bombing = 1
+			}
+			set_technology = {
+				direct_ground_support = 1
+			}
+			set_technology = {
+				formation_fighting = 1
+			}
+			set_technology = {
+				fighter_ace_initiative = 1
+			}
+			set_technology = {
+				hunt_and_destroy = 1
+			}
+			set_technology = {
+				combat_unit_destruction = 1
+			}
+			set_technology = {
+				battlefield_support = 1
+			}
+			set_technology = {
+				keypoint_bombing = 1
+			}
+			set_technology = {
+				ground_support_integration = 1
+			}
+			set_technology = {
+				naval_strike_torpedo_tactics = 1
+			}
+			set_technology = {
+				strategic_destruction = 1
+			}
+			set_technology = {
+				forward_interception = 1
+			}
+			set_technology = {
+				force_rotation = 1
+			}
+			set_technology = {
+				fighter_baiting = 1
+			}
+			set_technology = {
+				low_echelon_support = 1
+			}
+			set_technology = {
+				dispersed_fighting = 1
+			}
+			set_technology = {
+				operational_destruction = 1
+			}
+			set_technology = {
+				fighter_veteran_initiative = 1
+			}
+			set_technology = {
+				naval_strike_torpedo_tactics_oi = 1
+			}
+			set_technology = {
+				cas_veteran_initiative = 1
+			}
+			set_technology = {
+				carousel_bombing = 1
+			}
+			set_technology = {
+				infiltration_bombing = 1
+			}
+			set_technology = {
+				air_skirmish = 1
+			}
+			set_technology = {
+				high_level_bombing = 1
+			}
+			set_technology = {
+				early_transport_plane = 1
+			}
+			set_technology = {
+				improved_transport_plane = 1
+			}
+			set_technology = {
+				strategic_airlifter = 1
+			}
+			set_technology = {
+				early_fighter = 1
+			}
+			set_technology = {
+				cv_early_fighter = 1
+			}
+			set_technology = {
+				fighter1 = 1
+			}
+			set_technology = {
+				cv_fighter1 = 1
+			}
+			set_technology = {
+				fighter2 = 1
+			}
+			set_technology = {
+				cv_fighter2 = 1
+			}
+			set_technology = {
+				fighter3 = 1
+			}
+			set_technology = {
+				cv_fighter3 = 1
+			}
+			set_technology = {
+				jet_fighter1 = 1
+			}
+			set_technology = {
+				jet_fighter2 = 1
+			}
+			set_technology = {
+				supersonic_fighter1 = 1
+			}
+			set_technology = {
+				naval_bomber1 = 1
+			}
+			set_technology = {
+				cv_naval_bomber1 = 1
+			}
+			set_technology = {
+				naval_bomber2 = 1
+			}
+			set_technology = {
+				cv_naval_bomber2 = 1
+			}
+			set_technology = {
+				naval_bomber3 = 1
+			}
+			set_technology = {
+				cv_naval_bomber3 = 1
+			}
+			set_technology = {
+				early_bomber = 1
+			}
+			set_technology = {
+				heavy_fighter1 = 1
+			}
+			set_technology = {
+				heavy_fighter2 = 1
+			}
+			set_technology = {
+				heavy_fighter3 = 1
+			}
+			set_technology = {
+				scout_plane1 = 1
+			}
+			set_technology = {
+				scout_plane2 = 1
+			}
+			set_technology = {
+				tactical_bomber1 = 1
+			}
+			set_technology = {
+				tactical_bomber2 = 1
+			}
+			set_technology = {
+				tactical_bomber3 = 1
+			}
+			set_technology = {
+				jet_tactical_bomber1 = 1
+			}
+			set_technology = {
+				jet_tactical_bomber2 = 1
+			}
+			set_technology = {
+				strategic_bomber1 = 1
+			}
+			set_technology = {
+				strategic_bomber2 = 1
+			}
+			set_technology = {
+				strategic_bomber3 = 1
+			}
+			set_technology = {
+				jet_strategic_bomber1 = 1
+			}
+			set_technology = {
+				suicide_craft = 1
+			}
+			set_technology = {
+				gwtank = 1
+			}
+			set_technology = {
+				basic_light_tank = 1
+			}
+			set_technology = {
+				basic_light_td = 1
+			}
+			set_technology = {
+				basic_light_art = 1
+			}
+			set_technology = {
+				basic_light_spaa = 1
+			}
+			set_technology = {
+				improved_light_tank = 1
+			}
+			set_technology = {
+				improved_light_td = 1
+			}
+			set_technology = {
+				improved_light_art = 1
+			}
+			set_technology = {
+				improved_light_spaa = 1
+			}
+			set_technology = {
+				amphibious_tank = 1
+			}
+			set_technology = {
+				amphibious_tank_2 = 1
+			}
+			set_technology = {
+				advanced_light_tank = 1
+			}
+			set_technology = {
+				advanced_light_td = 1
+			}
+			set_technology = {
+				advanced_light_art = 1
+			}
+			set_technology = {
+				advanced_light_spaa = 1
+			}
+			set_technology = {
+				basic_medium_tank = 1
+			}
+			set_technology = {
+				basic_medium_td = 1
+			}
+			set_technology = {
+				basic_medium_art = 1
+			}
+			set_technology = {
+				basic_medium_spaa = 1
+			}
+			set_technology = {
+				improved_medium_tank = 1
+			}
+			set_technology = {
+				improved_medium_td = 1
+			}
+			set_technology = {
+				improved_medium_art = 1
+			}
+			set_technology = {
+				improved_medium_spaa = 1
+			}
+			set_technology = {
+				advanced_medium_tank = 1
+			}
+			set_technology = {
+				advanced_medium_td = 1
+			}
+			set_technology = {
+				advanced_medium_art = 1
+			}
+			set_technology = {
+				advanced_medium_spaa = 1
+			}
+			set_technology = {
+				main_battle_tank = 1
+			}
+			set_technology = {
+				modern_td = 1
+			}
+			set_technology = {
+				modern_art = 1
+			}
+			set_technology = {
+				modern_spaa = 1
+			}
+			set_technology = {
+				basic_heavy_tank = 1
+			}
+			set_technology = {
+				basic_heavy_td = 1
+			}
+			set_technology = {
+				basic_heavy_art = 1
+			}
+			set_technology = {
+				basic_heavy_spaa = 1
+			}
+			set_technology = {
+				improved_heavy_tank = 1
+			}
+			set_technology = {
+				improved_heavy_td = 1
+			}
+			set_technology = {
+				improved_heavy_art = 1
+			}
+			set_technology = {
+				improved_heavy_spaa = 1
+			}
+			set_technology = {
+				advanced_heavy_tank = 1
+			}
+			set_technology = {
+				advanced_heavy_td = 1
+			}
+			set_technology = {
+				advanced_heavy_art = 1
+			}
+			set_technology = {
+				advanced_heavy_spaa = 1
+			}
+			set_technology = {
+				super_heavy_tank = 1
+			}
+			set_technology = {
+				super_heavy_td = 1
+			}
+			set_technology = {
+				super_heavy_art = 1
+			}
+			set_technology = {
+				super_heavy_spaa = 1
+			}
+			set_technology = {
+				mountain_tanks = 1
+			}
+			set_technology = {
+				gw_artillery = 1
+			}
+			set_technology = {
+				interwar_artillery = 1
+			}
+			set_technology = {
+				artillery1 = 1
+			}
+			set_technology = {
+				artillery2 = 1
+			}
+			set_technology = {
+				artillery3 = 1
+			}
+			set_technology = {
+				artillery4 = 1
+			}
+			set_technology = {
+				artillery5 = 1
+			}
+			set_technology = {
+				mountain_gun = 1
+			}
+			set_technology = {
+				rocket_artillery = 1
+			}
+			set_technology = {
+				rocket_artillery2 = 1
+			}
+			set_technology = {
+				rocket_artillery3 = 1
+			}
+			set_technology = {
+				rocket_artillery4 = 1
+			}
+			set_technology = {
+				interwar_antiair = 1
+			}
+			set_technology = {
+				antiair1 = 1
+			}
+			set_technology = {
+				antiair2 = 1
+			}
+			set_technology = {
+				antiair3 = 1
+			}
+			set_technology = {
+				antiair4 = 1
+			}
+			set_technology = {
+				antiair5 = 1
+			}
+			set_technology = {
+				interwar_antitank = 1
+			}
+			set_technology = {
+				antitank1 = 1
+			}
+			set_technology = {
+				antitank2 = 1
+			}
+			set_technology = {
+				antitank3 = 1
+			}
+			set_technology = {
+				antitank4 = 1
+			}
+			set_technology = {
+				antitank5 = 1
+			}
+			set_technology = {
+				sp_artillery_rocket_assisted_projectiles_tech = 1
+			}
+			set_technology = {
+				sp_artillery_purpose_built_gun_motor_carriages_tech = 1
+			}
+			set_technology = {
+				sp_shock_hardening_techniques = 1
+			}
+			set_technology = {
+				sp_variable_time_fuze_shells = 1
+			}
+			set_technology = {
+				bba_early_transport_plane = 1
+			}
+			set_technology = {
+				bba_improved_transport_plane = 1
+			}
+			set_technology = {
+				bba_strategic_airlifter = 1
+			}
+			set_technology = {
+				iw_small_airframe = 1
+			}
+			set_technology = {
+				basic_small_airframe = 1
+			}
+			set_technology = {
+				improved_small_airframe = 1
+			}
+			set_technology = {
+				advanced_small_airframe = 1
+			}
+			set_technology = {
+				modern_small_airframe = 1
+			}
+			set_technology = {
+				supersonic_small_airframe = 1
+			}
+			set_technology = {
+				iw_medium_airframe = 1
+			}
+			set_technology = {
+				basic_medium_airframe = 1
+			}
+			set_technology = {
+				improved_medium_airframe = 1
+			}
+			set_technology = {
+				advanced_medium_airframe = 1
+			}
+			set_technology = {
+				modern_medium_airframe = 1
+			}
+			set_technology = {
+				iw_large_airframe = 1
+			}
+			set_technology = {
+				basic_large_airframe = 1
+			}
+			set_technology = {
+				improved_large_airframe = 1
+			}
+			set_technology = {
+				advanced_large_airframe = 1
+			}
+			set_technology = {
+				modern_large_airframe = 1
+			}
+			set_technology = {
+				early_bombs = 1
+			}
+			set_technology = {
+				heavy_bombs = 1
+			}
+			set_technology = {
+				armor_piercing_bombs = 1
+			}
+			set_technology = {
+				photo_reconnaisance = 1
+			}
+			set_technology = {
+				air_torpedoe_1 = 1
+			}
+			set_technology = {
+				air_torpedoe_2 = 1
+			}
+			set_technology = {
+				air_torpedoe_3 = 1
+			}
+			set_technology = {
+				aa_lmg = 1
+			}
+			set_technology = {
+				survivability_studies = 1
+			}
+			set_technology = {
+				aa_hmg = 1
+			}
+			set_technology = {
+				aa_cannon_1 = 1
+			}
+			set_technology = {
+				aa_cannon_2 = 1
+			}
+			set_technology = {
+				aa_cannon_3 = 1
+			}
+			set_technology = {
+				engines_1 = 1
+			}
+			set_technology = {
+				engines_2 = 1
+			}
+			set_technology = {
+				engines_3 = 1
+			}
+			set_technology = {
+				engines_4 = 1
+			}
+			set_technology = {
+				range_improvements = 1
+			}
+			set_technology = {
+				aircraft_construction = 1
+			}
+			set_technology = {
+				suicide_charge = 1
+			}
+			set_technology = {
+				sp_centrifugal_jet_tech = 1
+			}
+			set_technology = {
+				reinforced_wings_mothership = 1
+			}
+			set_technology = {
+				miniature_fighters = 1
+			}
+			set_technology = {
+				aerial_hangars = 1
+			}
+			set_technology = {
+				electronic_mechanical_engineering = 1
+			}
+			set_technology = {
+				radio = 1
+			}
+			set_technology = {
+				improved_radio = 1
+			}
+			set_technology = {
+				advanced_radio = 1
+			}
+			set_technology = {
+				radio_detection = 1
+			}
+			set_technology = {
+				cavity_magnatron = 1
+			}
+			set_technology = {
+				centimetric_radar = 1
+			}
+			set_technology = {
+				phased_array = 1
+			}
+			set_technology = {
+				monopulse_radar = 1
+			}
+			set_technology = {
+				mechanical_computing = 1
+			}
+			set_technology = {
+				computing_machine = 1
+			}
+			set_technology = {
+				improved_computing_machine = 1
+			}
+			set_technology = {
+				advanced_computing_machine = 1
+			}
+			set_technology = {
+				basic_encryption = 1
+			}
+			set_technology = {
+				improved_encryption = 1
+			}
+			set_technology = {
+				advanced_encryption = 1
+			}
+			set_technology = {
+				basic_decryption = 1
+			}
+			set_technology = {
+				improved_decryption = 1
+			}
+			set_technology = {
+				advanced_decryption = 1
+			}
+			set_technology = {
+				basic_fire_control_system = 1
+			}
+			set_technology = {
+				improved_fire_control_system = 1
+			}
+			set_technology = {
+				advanced_fire_control_system = 1
+			}
+			set_technology = {
+				basic_fortification_tech = 1
+			}
+			set_technology = {
+				land_fort_tech_1 = 1
+			}
+			set_technology = {
+				land_fort_tech_2 = 1
+			}
+			set_technology = {
+				coastal_fort_tech_1 = 1
+			}
+			set_technology = {
+				coastal_fort_tech_2 = 1
+			}
+			set_technology = {
+				experimental_rockets = 1
+			}
+			set_technology = {
+				rocket_engines = 1
+			}
+			set_technology = {
+				sp_rockets_improved_guidance = 1
+			}
+			set_technology = {
+				sp_rockets_rocket_bomber = 1
+			}
+			set_technology = {
+				sp_rockets_improved_rocket_bomber = 1
+			}
+			set_technology = {
+				improved_rocket_engines = 1
+			}
+			set_technology = {
+				advanced_rocket_engines = 1
+			}
+			set_technology = {
+				jet_engines = 1
+			}
+			set_technology = {
+				atomic_research = 1
+			}
+			set_technology = {
+				nuclear_reactor = 1
+			}
+			set_technology = {
+				nuclear_reactor_heavy_water = 1
+			}
+			set_technology = {
+				nukes = 1
+			}
+			set_technology = {
+				lar_decryption_bonus_tech = 1
+			}
+			set_technology = {
+				sp_rockets_dual_chamber_rocket_engine_1 = 1
+			}
+			set_technology = {
+				sp_rockets_dual_chamber_rocket_engine_2 = 1
+			}
+			set_technology = {
+				basic_machine_tools = 1
+			}
+			set_technology = {
+				improved_machine_tools = 1
+			}
+			set_technology = {
+				advanced_machine_tools = 1
+			}
+			set_technology = {
+				assembly_line_production = 1
+			}
+			set_technology = {
+				flexible_line = 1
+			}
+			set_technology = {
+				streamlined_line = 1
+			}
+			set_technology = {
+				improved_equipment_conversion = 1
+			}
+			set_technology = {
+				advanced_equipment_conversion = 1
+			}
+			set_technology = {
+				concentrated_industry = 1
+			}
+			set_technology = {
+				concentrated_industry2 = 1
+			}
+			set_technology = {
+				concentrated_industry3 = 1
+			}
+			set_technology = {
+				concentrated_industry4 = 1
+			}
+			set_technology = {
+				concentrated_industry5 = 1
+			}
+			set_technology = {
+				dispersed_industry = 1
+			}
+			set_technology = {
+				dispersed_industry2 = 1
+			}
+			set_technology = {
+				dispersed_industry3 = 1
+			}
+			set_technology = {
+				dispersed_industry4 = 1
+			}
+			set_technology = {
+				dispersed_industry5 = 1
+			}
+			set_technology = {
+				fuel_silos = 1
+			}
+			set_technology = {
+				fuel_refining = 1
+			}
+			set_technology = {
+				fuel_refining2 = 1
+			}
+			set_technology = {
+				fuel_refining3 = 1
+			}
+			set_technology = {
+				fuel_refining4 = 1
+			}
+			set_technology = {
+				fuel_refining5 = 1
+			}
+			set_technology = {
+				synth_oil_experiments = 1
+			}
+			set_technology = {
+				oil_processing = 1
+			}
+			set_technology = {
+				improved_oil_processing = 1
+			}
+			set_technology = {
+				advanced_oil_processing = 1
+			}
+			set_technology = {
+				modern_oil_processing = 1
+			}
+			set_technology = {
+				rubber_processing = 1
+			}
+			set_technology = {
+				improved_rubber_processing = 1
+			}
+			set_technology = {
+				advanced_rubber_processing = 1
+			}
+			set_technology = {
+				modern_rubber_processing = 1
+			}
+			set_technology = {
+				construction1 = 1
+			}
+			set_technology = {
+				excavation1 = 1
+			}
+			set_technology = {
+				construction2 = 1
+			}
+			set_technology = {
+				excavation2 = 1
+			}
+			set_technology = {
+				construction3 = 1
+			}
+			set_technology = {
+				excavation3 = 1
+			}
+			set_technology = {
+				construction4 = 1
+			}
+			set_technology = {
+				excavation4 = 1
+			}
+			set_technology = {
+				construction5 = 1
+			}
+			set_technology = {
+				excavation5 = 1
+			}
+			set_technology = {
+				infantry_weapons = 1
+			}
+			set_technology = {
+				infantry_weapons1 = 1
+			}
+			set_technology = {
+				infantry_weapons2 = 1
+			}
+			set_technology = {
+				improved_infantry_weapons = 1
+			}
+			set_technology = {
+				improved_infantry_weapons_2 = 1
+			}
+			set_technology = {
+				infantry_at = 1
+			}
+			set_technology = {
+				infantry_at2 = 1
+			}
+			set_technology = {
+				advanced_infantry_weapons = 1
+			}
+			set_technology = {
+				advanced_infantry_weapons2 = 1
+			}
+			set_technology = {
+				paratroopers = 1
+			}
+			set_technology = {
+				paratroopers2 = 1
+			}
+			set_technology = {
+				paratroopers3 = 1
+			}
+			set_technology = {
+				marines = 1
+			}
+			set_technology = {
+				marines2 = 1
+			}
+			set_technology = {
+				marines3 = 1
+			}
+			set_technology = {
+				tech_mountaineers = 1
+			}
+			set_technology = {
+				tech_mountaineers2 = 1
+			}
+			set_technology = {
+				tech_mountaineers3 = 1
+			}
+			set_technology = {
+				tech_special_forces = 1
+			}
+			set_technology = {
+				advanced_special_forces = 1
+			}
+			set_technology = {
+				improved_special_forces = 1
+			}
+			set_technology = {
+				extreme_environment_training = 1
+			}
+			set_technology = {
+				survival_training = 1
+			}
+			set_technology = {
+				elite_forces = 1
+			}
+			set_technology = {
+				jungle_warfare = 1
+			}
+			set_technology = {
+				jungle_training_tech = 1
+			}
+			set_technology = {
+				desert_training_tech = 1
+			}
+			set_technology = {
+				hills_training_tech = 1
+			}
+			set_technology = {
+				urban_training_tech = 1
+			}
+			set_technology = {
+				mountain_warfare = 1
+			}
+			set_technology = {
+				mountain_defensive_training = 1
+			}
+			set_technology = {
+				night_vision = 1
+			}
+			set_technology = {
+				night_vision2 = 1
+			}
+			set_technology = {
+				support_weapons = 1
+			}
+			set_technology = {
+				support_weapons2 = 1
+			}
+			set_technology = {
+				support_weapons3 = 1
+			}
+			set_technology = {
+				support_weapons4 = 1
+			}
+			set_technology = {
+				tech_trucks = 1
+			}
+			set_technology = {
+				motorised_infantry = 1
+			}
+			set_technology = {
+				motorized_rocket_unit = 1
+			}
+			set_technology = {
+				armored_car1 = 1
+			}
+			set_technology = {
+				armored_car2 = 1
+			}
+			set_technology = {
+				armored_car3 = 1
+			}
+			set_technology = {
+				armored_car_at_upgrade = 1
+			}
+			set_technology = {
+				mechanised_infantry = 1
+			}
+			set_technology = {
+				amphibious_mechanized_infantry = 1
+			}
+			set_technology = {
+				amphibious_mechanized_infantry_2 = 1
+			}
+			set_technology = {
+				mechanised_infantry2 = 1
+			}
+			set_technology = {
+				mechanised_infantry3 = 1
+			}
+			set_technology = {
+				bicycle_infantry = 1
+			}
+			set_technology = {
+				camelry = 1
+			}
+			set_technology = {
+				elephantry = 1
+			}
+			set_technology = {
+				penal_infantry = 1
+			}
+			set_technology = {
+				blackshirt_assault_battalion_tech = 1
+			}
+			set_technology = {
+				mountain_warfare_militias_tech = 1
+			}
+			set_technology = {
+				molotov_cocktails_tech = 1
+			}
+			set_technology = {
+				winter_logistics_support_tech = 1
+			}
+			set_technology = {
+				long_range_patrol_support_tech = 1
+			}
+			set_technology = {
+				sami_pathfinders_tech = 1
+			}
+			set_technology = {
+				lotta_svard_tech = 1
+			}
+			set_technology = {
+				sturmtruppe_battalion_tech = 1
+			}
+			set_technology = {
+				uranium_tipped_bullets = 1
+			}
+			set_technology = {
+				revolutionary_mass_assault = 1
+			}
+			set_technology = {
+				mobile_warfare = 1
+			}
+			set_technology = {
+				delay = 1
+			}
+			set_technology = {
+				elastic_defence = 1
+			}
+			set_technology = {
+				mobile_infantry = 1
+			}
+			set_technology = {
+				mass_motorization = 1
+			}
+			set_technology = {
+				mechanised_offensive = 1
+			}
+			set_technology = {
+				armored_spearhead = 1
+			}
+			set_technology = {
+				schwerpunk = 1
+			}
+			set_technology = {
+				blitzkrieg = 1
+			}
+			set_technology = {
+				kampfgruppe = 1
+			}
+			set_technology = {
+				firebrigades = 1
+			}
+			set_technology = {
+				backhand_blow = 1
+			}
+			set_technology = {
+				modern_blitzkrieg = 1
+			}
+			set_technology = {
+				volkssturm = 1
+			}
+			set_technology = {
+				nd_conscription = 1
+			}
+			set_technology = {
+				werwolf_guerillas = 1
+			}
+			set_technology = {
+				superior_firepower = 1
+			}
+			set_technology = {
+				sup_delay = 1
+			}
+			set_technology = {
+				mobile_defence = 1
+			}
+			set_technology = {
+				intergrated_support = 1
+			}
+			set_technology = {
+				regimental_combat_teams = 1
+			}
+			set_technology = {
+				dispersed_support = 1
+			}
+			set_technology = {
+				overwhelming_firepower = 1
+			}
+			set_technology = {
+				sup_mechanized_offensive = 1
+			}
+			set_technology = {
+				concentrated_fire_plans = 1
+			}
+			set_technology = {
+				combined_arms = 1
+			}
+			set_technology = {
+				tactical_control = 1
+			}
+			set_technology = {
+				air_land_battle = 1
+			}
+			set_technology = {
+				centralized_fire_control = 1
+			}
+			set_technology = {
+				forward_observers = 1
+			}
+			set_technology = {
+				advanced_firebases = 1
+			}
+			set_technology = {
+				shock_and_awe = 1
+			}
+			set_technology = {
+				trench_warfare = 1
+			}
+			set_technology = {
+				grand_battle_plan = 1
+			}
+			set_technology = {
+				prepared_defense = 1
+			}
+			set_technology = {
+				grand_assault = 1
+			}
+			set_technology = {
+				grand_mechanized_offensive = 1
+			}
+			set_technology = {
+				assault_concentration = 1
+			}
+			set_technology = {
+				branch_interoperation = 1
+			}
+			set_technology = {
+				assault_breakthrough = 1
+			}
+			set_technology = {
+				central_planning = 1
+			}
+			set_technology = {
+				c3i_theory = 1
+			}
+			set_technology = {
+				infantry_offensive = 1
+			}
+			set_technology = {
+				armored_operations = 1
+			}
+			set_technology = {
+				infiltration_assault = 1
+			}
+			set_technology = {
+				night_assault_tactics = 1
+			}
+			set_technology = {
+				attritional_containment = 1
+			}
+			set_technology = {
+				infiltration_in_depth = 1
+			}
+			set_technology = {
+				mass_assault = 1
+			}
+			set_technology = {
+				pocket_defence = 1
+			}
+			set_technology = {
+				defence_in_depth = 1
+			}
+			set_technology = {
+				large_front_operations = 1
+			}
+			set_technology = {
+				deep_operations = 1
+			}
+			set_technology = {
+				operational_concentration = 1
+			}
+			set_technology = {
+				vast_offensives = 1
+			}
+			set_technology = {
+				breakthrough_priority = 1
+			}
+			set_technology = {
+				mechanized_wave = 1
+			}
+			set_technology = {
+				continuous_offensive = 1
+			}
+			set_technology = {
+				peoples_army = 1
+			}
+			set_technology = {
+				human_infantry_offensive = 1
+			}
+			set_technology = {
+				large_front_offensive = 1
+			}
+			set_technology = {
+				human_wave_offensive = 1
+			}
+			set_technology = {
+				guerilla_warfare = 1
+			}
+			set_technology = {
+				masterful_blitz = 1
+			}
+			set_technology = {
+				early_ship_hull_light = 1
+			}
+			set_technology = {
+				basic_ship_hull_light = 1
+			}
+			set_technology = {
+				improved_ship_hull_light = 1
+			}
+			set_technology = {
+				advanced_ship_hull_light = 1
+			}
+			set_technology = {
+				smoke_generator = 1
+			}
+			set_technology = {
+				basic_depth_charges = 1
+			}
+			set_technology = {
+				improved_depth_charges = 1
+			}
+			set_technology = {
+				advanced_depth_charges = 1
+			}
+			set_technology = {
+				modern_depth_charges = 1
+			}
+			set_technology = {
+				sonar = 1
+			}
+			set_technology = {
+				improved_sonar = 1
+			}
+			set_technology = {
+				early_ship_hull_cruiser = 1
+			}
+			set_technology = {
+				basic_ship_hull_cruiser = 1
+			}
+			set_technology = {
+				improved_ship_hull_cruiser = 1
+			}
+			set_technology = {
+				advanced_ship_hull_cruiser = 1
+			}
+			set_technology = {
+				improved_airplane_launcher = 1
+			}
+			set_technology = {
+				basic_cruiser_armor_scheme = 1
+			}
+			set_technology = {
+				early_ship_hull_heavy = 1
+			}
+			set_technology = {
+				basic_ship_hull_heavy = 1
+			}
+			set_technology = {
+				ship_hull_super_heavy = 1
+			}
+			set_technology = {
+				improved_ship_hull_heavy = 1
+			}
+			set_technology = {
+				advanced_ship_hull_heavy = 1
+			}
+			set_technology = {
+				basic_heavy_armor_scheme = 1
+			}
+			set_technology = {
+				improved_heavy_armor_scheme = 1
+			}
+			set_technology = {
+				basic_ship_hull_carrier = 1
+			}
+			set_technology = {
+				improved_ship_hull_carrier = 1
+			}
+			set_technology = {
+				advanced_ship_hull_carrier = 1
+			}
+			set_technology = {
+				early_ship_hull_submarine = 1
+			}
+			set_technology = {
+				basic_ship_hull_submarine = 1
+			}
+			set_technology = {
+				improved_ship_hull_submarine = 1
+			}
+			set_technology = {
+				advanced_ship_hull_submarine = 1
+			}
+			set_technology = {
+				basic_submarine_snorkel = 1
+			}
+			set_technology = {
+				improved_submarine_snorkel = 1
+			}
+			set_technology = {
+				panzerschiffe = 1
+			}
+			set_technology = {
+				torpedo_cruiser_mtg = 1
+			}
+			set_technology = {
+				pre_dreadnoughts = 1
+			}
+			set_technology = {
+				coastal_defense_ships = 1
+			}
+			set_technology = {
+				cruiser_submarines = 1
+			}
+			set_technology = {
+				midget_submarines = 1
+			}
+			set_technology = {
+				sp_aip_engine_improved_tech = 1
+			}
+			set_technology = {
+				sp_aip_engine_advanced_tech = 1
+			}
+			set_technology = {
+				sp_refined_pykrete = 1
+			}
+			set_technology = {
+				sp_ice_composite_runawayas = 1
+			}
+			set_technology = {
+				sp_naval_proximity_fuze_tech = 1
+			}
+			set_technology = {
+				sp_naval_underway_replenishment_pick_a = 1
+			}
+			set_technology = {
+				sp_naval_underway_replenishment_pick_b = 1
+			}
+			set_technology = {
+				basic_battery = 1
+			}
+			set_technology = {
+				basic_light_battery = 1
+			}
+			set_technology = {
+				basic_light_shell = 1
+			}
+			set_technology = {
+				improved_light_battery = 1
+			}
+			set_technology = {
+				improved_light_shell = 1
+			}
+			set_technology = {
+				advanced_light_battery = 1
+			}
+			set_technology = {
+				basic_medium_battery = 1
+			}
+			set_technology = {
+				basic_medium_shell = 1
+			}
+			set_technology = {
+				improved_medium_battery = 1
+			}
+			set_technology = {
+				improved_medium_shell = 1
+			}
+			set_technology = {
+				advanced_medium_battery = 1
+			}
+			set_technology = {
+				basic_heavy_battery = 1
+			}
+			set_technology = {
+				improved_heavy_battery = 1
+			}
+			set_technology = {
+				advanced_heavy_battery = 1
+			}
+			set_technology = {
+				basic_heavy_shell = 1
+			}
+			set_technology = {
+				improved_heavy_shell = 1
+			}
+			set_technology = {
+				basic_dp_light_battery = 1
+			}
+			set_technology = {
+				improved_dp_light_battery = 1
+			}
+			set_technology = {
+				advanced_dp_light_battery = 1
+			}
+			set_technology = {
+				basic_dp_medium_battery = 1
+			}
+			set_technology = {
+				basic_torpedo = 1
+			}
+			set_technology = {
+				magnetic_detonator = 1
+			}
+			set_technology = {
+				homing_torpedo = 1
+			}
+			set_technology = {
+				electric_torpedo = 1
+			}
+			set_technology = {
+				improved_ship_torpedo_launcher = 1
+			}
+			set_technology = {
+				advanced_ship_torpedo_launcher = 1
+			}
+			set_technology = {
+				modern_ship_torpedo_launcher = 1
+			}
+			set_technology = {
+				damage_control_1 = 1
+			}
+			set_technology = {
+				damage_control_2 = 1
+			}
+			set_technology = {
+				damage_control_3 = 1
+			}
+			set_technology = {
+				fire_control_methods_1 = 1
+			}
+			set_technology = {
+				fire_control_methods_2 = 1
+			}
+			set_technology = {
+				fire_control_methods_3 = 1
+			}
+			set_technology = {
+				basic_naval_mines = 1
+			}
+			set_technology = {
+				submarine_mine_laying = 1
+			}
+			set_technology = {
+				improved_submarine_mine_laying = 1
+			}
+			set_technology = {
+				improved_naval_mines = 1
+			}
+			set_technology = {
+				degaussing = 1
+			}
+			set_technology = {
+				advanced_naval_mines = 1
+			}
+			set_technology = {
+				airdrop_mines = 1
+			}
+			set_technology = {
+				airdrop_mines_bba = 1
+			}
+			set_technology = {
+				modern_naval_mines = 1
+			}
+			set_technology = {
+				airsweep_mines = 1
+			}
+			set_technology = {
+				airsweep_mines_bba = 1
+			}
+			set_technology = {
+				mtg_transport = 1
+			}
+			set_technology = {
+				mtg_landing_craft = 1
+			}
+			set_technology = {
+				mtg_tank_landing_craft = 1
+			}
+			set_technology = {
+				sp_multi_product_supply_ships = 1
+			}
+			set_technology = {
+				sp_standard_tenshioned_replenishment_alongside_method = 1
+			}
+			set_technology = {
+				early_destroyer = 1
+			}
+			set_technology = {
+				basic_destroyer = 1
+			}
+			set_technology = {
+				improved_destroyer = 1
+			}
+			set_technology = {
+				advanced_destroyer = 1
+			}
+			set_technology = {
+				early_light_cruiser = 1
+			}
+			set_technology = {
+				basic_light_cruiser = 1
+			}
+			set_technology = {
+				improved_light_cruiser = 1
+			}
+			set_technology = {
+				advanced_light_cruiser = 1
+			}
+			set_technology = {
+				early_heavy_cruiser = 1
+			}
+			set_technology = {
+				basic_heavy_cruiser = 1
+			}
+			set_technology = {
+				improved_heavy_cruiser = 1
+			}
+			set_technology = {
+				advanced_heavy_cruiser = 1
+			}
+			set_technology = {
+				early_battlecruiser = 1
+			}
+			set_technology = {
+				basic_battlecruiser = 1
+			}
+			set_technology = {
+				early_battleship = 1
+			}
+			set_technology = {
+				basic_battleship = 1
+			}
+			set_technology = {
+				improved_battleship = 1
+			}
+			set_technology = {
+				advanced_battleship = 1
+			}
+			set_technology = {
+				heavy_battleship = 1
+			}
+			set_technology = {
+				heavy_battleship2 = 1
+			}
+			set_technology = {
+				transport = 1
+			}
+			set_technology = {
+				landing_craft = 1
+			}
+			set_technology = {
+				tank_landing_craft = 1
+			}
+			set_technology = {
+				early_carrier = 1
+			}
+			set_technology = {
+				basic_carrier = 1
+			}
+			set_technology = {
+				improved_carrier = 1
+			}
+			set_technology = {
+				advanced_carrier = 1
+			}
+			set_technology = {
+				early_submarine = 1
+			}
+			set_technology = {
+				basic_submarine = 1
+			}
+			set_technology = {
+				improved_submarine = 1
+			}
+			set_technology = {
+				advanced_submarine = 1
+			}
+			set_technology = {
+				torpedo_cruiser = 1
+			}
+			set_technology = {
+				fleet_submarines = 1
+			}
+			set_technology = {
+				fleet_in_being = 1
+			}
+			set_technology = {
+				battlefleet_concentration = 1
+			}
+			set_technology = {
+				subsidiary_carrier_role = 1
+			}
+			set_technology = {
+				hunter_killer_groups = 1
+			}
+			set_technology = {
+				floating_fortress = 1
+			}
+			set_technology = {
+				floating_airfield = 1
+			}
+			set_technology = {
+				grand_battlefleet = 1
+			}
+			set_technology = {
+				convoy_sailing = 1
+			}
+			set_technology = {
+				convoy_escorts = 1
+			}
+			set_technology = {
+				escort_carriers = 1
+			}
+			set_technology = {
+				integrated_convoy_defence = 1
+			}
+			set_technology = {
+				submarine_operations = 1
+			}
+			set_technology = {
+				undersea_blockade = 1
+			}
+			set_technology = {
+				convoy_interdiction = 1
+			}
+			set_technology = {
+				submarine_offensive = 1
+			}
+			set_technology = {
+				trade_interdiction = 1
+			}
+			set_technology = {
+				convoy_interdiction_ti = 1
+			}
+			set_technology = {
+				unrestricted_submarine_warfare = 1
+			}
+			set_technology = {
+				wolfpacks = 1
+			}
+			set_technology = {
+				advanced_submarine_warfare = 1
+			}
+			set_technology = {
+				combined_operations_raiding = 1
+			}
+			set_technology = {
+				raider_patrols = 1
+			}
+			set_technology = {
+				capital_ship_raiders = 1
+			}
+			set_technology = {
+				battlefleet_concentration_ti = 1
+			}
+			set_technology = {
+				floating_fortress_ti = 1
+			}
+			set_technology = {
+				floating_airfield_ti = 1
+			}
+			set_technology = {
+				carrier_operations = 1
+			}
+			set_technology = {
+				convoy_sailing_ti = 1
+			}
+			set_technology = {
+				subsidiary_carrier_role_ti = 1
+			}
+			set_technology = {
+				naval_air_operations = 1
+			}
+			set_technology = {
+				base_strike = 1
+			}
+			set_technology = {
+				carrier_primacy = 1
+			}
+			set_technology = {
+				carrier_task_forces = 1
+			}
+			set_technology = {
+				floating_airfield_bs = 1
+			}
+			set_technology = {
+				massed_strikes = 1
+			}
+			set_technology = {
+				floating_fortress_bs = 1
+			}
+			set_technology = {
+				carrier_battlegroups = 1
+			}
+			set_technology = {
+				submarine_operations_bs = 1
+			}
+			set_technology = {
+				undersea_blockade_bs = 1
+			}
+			set_technology = {
+				convoy_interdiction_bs = 1
+			}
+			set_technology = {
+				submarine_offensive_bs = 1
+			}
+			set_technology = {
+				convoy_escorts_bs = 1
+			}
+			set_technology = {
+				escort_patrols = 1
+			}
+			set_technology = {
+				convoy_sailing_bs = 1
+			}
+			set_technology = {
+				integrated_convoy_defence_bs = 1
+			}
+			set_technology = {
+				gwtank_chassis = 1
+			}
+			set_technology = {
+				basic_light_tank_chassis = 1
+			}
+			set_technology = {
+				improved_light_tank_chassis = 1
+			}
+			set_technology = {
+				amphibious_tank_chassis = 1
+			}
+			set_technology = {
+				amphibious_drive = 1
+			}
+			set_technology = {
+				advanced_light_tank_chassis = 1
+			}
+			set_technology = {
+				basic_medium_tank_chassis = 1
+			}
+			set_technology = {
+				improved_medium_tank_chassis = 1
+			}
+			set_technology = {
+				advanced_medium_tank_chassis = 1
+			}
+			set_technology = {
+				main_battle_tank_chassis = 1
+			}
+			set_technology = {
+				basic_heavy_tank_chassis = 1
+			}
+			set_technology = {
+				improved_heavy_tank_chassis = 1
+			}
+			set_technology = {
+				advanced_heavy_tank_chassis = 1
+			}
+			set_technology = {
+				super_heavy_tank_chassis = 1
+			}
+			set_technology = {
+				armor_tech_1 = 1
+			}
+			set_technology = {
+				armor_tech_2 = 1
+			}
+			set_technology = {
+				armor_tech_3 = 1
+			}
+			set_technology = {
+				armor_tech_4 = 1
+			}
+			set_technology = {
+				engine_tech_1 = 1
+			}
+			set_technology = {
+				engine_tech_2 = 1
+			}
+			set_technology = {
+				engine_tech_3 = 1
+			}
+			set_technology = {
+				engine_tech_4 = 1
+			}
+			set_technology = {
+				sp_armored_advanced_flamethrower_tech = 1
+			}
+			set_technology = {
+				sp_armored_lc_naval_engine_conversion_tech = 1
+			}
+			set_technology = {
+				sp_armored_lc_transmission_improvements_tech = 1
+			}
+			set_technology = {
+				sp_armored_lc_specialized_field_manuals_tech = 1
+			}
+			set_technology = {
+				sp_armored_lc_weapon_fire_control_tech = 1
+			}
+			set_technology = {
+				sp_armored_lc_high_impact_obliterator_cannon_tech = 1
+			}
+			set_technology = {
+				special_forces_mountaineers = 1
+			}
+			set_technology = {
+				ski_troops = 1
+			}
+			set_technology = {
+				rangers = 1
+			}
+			set_technology = {
+				special_forces_recon = 1
+			}
+			set_technology = {
+				mountaineers_combat_1 = 1
+			}
+			set_technology = {
+				mountaineers_combat_2 = 1
+			}
+			set_technology = {
+				mountaineers_combat_3 = 1
+			}
+			set_technology = {
+				mountaineers_keystone_1 = 1
+			}
+			set_technology = {
+				mountaineers_keystone_2 = 1
+			}
+			set_technology = {
+				special_forces_marines = 1
+			}
+			set_technology = {
+				marines_jungle_troops = 1
+			}
+			set_technology = {
+				marines_shore_parties = 1
+			}
+			set_technology = {
+				marines_recon = 1
+			}
+			set_technology = {
+				marines_commandoes = 1
+			}
+			set_technology = {
+				marines_expeditionary = 1
+			}
+			set_technology = {
+				marines_commandos_demolition = 1
+			}
+			set_technology = {
+				marines_expeditionary_blowtorch = 1
+			}
+			set_technology = {
+				marines_commandoes_mechanised = 1
+			}
+			set_technology = {
+				marines_commandoes_mechanised_non_mtg = 1
+			}
+			set_technology = {
+				marines_expeditionary_support = 1
+			}
+			set_technology = {
+				special_forces_paratroopers = 1
+			}
+			set_technology = {
+				paras_dispersed_drop = 1
+			}
+			set_technology = {
+				paras_combat_drop = 1
+			}
+			set_technology = {
+				paras_airborne_light_armor = 1
+			}
+			set_technology = {
+				paras_combat_1 = 1
+			}
+			set_technology = {
+				paras_combat_2 = 1
+			}
+			set_technology = {
+				paras_bonus_1 = 1
+			}
+			set_technology = {
+				paras_bonus_2 = 1
+			}
+			set_technology = {
+				paras_keystone_1 = 1
+			}
+			set_technology = {
+				paras_keystone_2 = 1
+			}
+			set_technology = {
+				advanced_modern_tank_turret_tech = 1
+			}
+			set_technology = {
+				land_multi_charge_large_caliber_gun_tech = 1
+			}
+			set_technology = {
+				commercial_nuclear_reactor_tech = 1
+			}
+			set_technology = {
+				stronghold_network_tech = 1
+			}
+			set_technology = {
+				isotope_separation_centrifugal = 1
+			}
+			set_technology = {
+				thermonuclear_bombs = 1
+			}
+			set_technology = {
+				tech_support = 1
+			}
+			set_technology = {
+				tech_engineers = 1
+			}
+			set_technology = {
+				tech_engineers2 = 1
+			}
+			set_technology = {
+				tech_engineers3 = 1
+			}
+			set_technology = {
+				tech_engineers4 = 1
+			}
+			set_technology = {
+				tech_recon = 1
+			}
+			set_technology = {
+				tech_recon2 = 1
+			}
+			set_technology = {
+				tech_recon3 = 1
+			}
+			set_technology = {
+				tech_recon4 = 1
+			}
+			set_technology = {
+				tech_military_police = 1
+			}
+			set_technology = {
+				tech_military_police2 = 1
+			}
+			set_technology = {
+				tech_military_police3 = 1
+			}
+			set_technology = {
+				tech_military_police4 = 1
+			}
+			set_technology = {
+				camicie_nere_security_militias = 1
+			}
+			set_technology = {
+				tech_maintenance_company = 1
+			}
+			set_technology = {
+				tech_maintenance_company2 = 1
+			}
+			set_technology = {
+				tech_maintenance_company3 = 1
+			}
+			set_technology = {
+				tech_maintenance_company4 = 1
+			}
+			set_technology = {
+				tech_field_hospital = 1
+			}
+			set_technology = {
+				tech_field_hospital2 = 1
+			}
+			set_technology = {
+				tech_field_hospital3 = 1
+			}
+			set_technology = {
+				tech_field_hospital4 = 1
+			}
+			set_technology = {
+				tech_logistics_company = 1
+			}
+			set_technology = {
+				tech_logistics_company2 = 1
+			}
+			set_technology = {
+				tech_logistics_company3 = 1
+			}
+			set_technology = {
+				tech_logistics_company4 = 1
+			}
+			set_technology = {
+				tech_signal_company = 1
+			}
+			set_technology = {
+				tech_signal_company2 = 1
+			}
+			set_technology = {
+				tech_signal_company3 = 1
+			}
+			set_technology = {
+				tech_signal_company4 = 1
+			}
+			set_technology = {
+				basic_train = 1
+			}
+			set_technology = {
+				railway_gun = 1
+			}
+			set_technology = {
+				wartime_train = 1
+			}
+			set_technology = {
+				armored_train = 1
+			}
+			set_technology = {
+				tech_recon_focus_bonus = 1
+			}
+			set_technology = {
+				sp_armored_engineer_tech = 1
+			}
+			set_technology = {
+				sp_armored_maintenance_tech = 1
+			}
+			set_technology = {
+				sp_armored_signal_tech = 1
+			}
+			set_technology = {
+				sp_helicopter_transport_pods_tech = 1
+			}
+			set_technology = {
+				sp_helicopter_artillery_observers_tech = 1
+			}
+			set_technology = {
+				sp_helicopter_med_evac_tech = 1
+			}
+			set_technology = {
+				sp_armored_motorized_military_police_tech = 1
+			}
+			add_breakthrough_points = {
+				specialization = all
+				value = 20
+			}
+			add_research_slot = 3
+		}
+	}
+	weapon_decision = {
+		cost = 1
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_3
+				amount = 1000000
+			}
+			add_equipment_to_stockpile = {
+				type = anti_air_equipment_3
+				amount = 100000
+			}
+			add_equipment_to_stockpile = {
+				type = anti_tank_equipment_3
+				amount = 100000
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_1
+				amount = 100000
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_rocket_equipment_1
+				amount = 100000
+			}
+			add_equipment_to_stockpile = {
+				type = mechanized_equipment_3
+				amount = 1000000
+			}
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 10000
+			}
+			add_equipment_to_stockpile = {
+				type = train_equipment_3
+				amount = 1000
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = 100000
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment_3
+				amount = 100000
+			}
+			add_equipment_to_stockpile = {
+				type = rocket_artillery_equipment_2
+				amount = 100000
+			}
+			add_equipment_to_stockpile = {
+				type = armored_car_equipment_2
+				amount = 10000
+			}
+			add_equipment_to_stockpile = {
+				type = scout_plane_equipment_2
+				amount = 1000
+			}
+			add_equipment_to_stockpile = {
+				type = transport_plane_equipment_3
+				amount = 10000
+			}
+			add_equipment_to_stockpile = {
+				type = helicopter_equipment_1
+				amount = 10000
+			}
+			add_equipment_to_stockpile = {
+				type = floating_harbor_equipment_1
+				amount = 100
+			}
+		}
+	}
+	building_decision = {
+		cost = 1
+		complete_effect = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 10
+			}
+			add_offsite_building = {
+				type = industrial_complex
+				level = 200
+			}
+			add_offsite_building = {
+				type = dockyard
+				level = 10
+			}
+		}
+	}
+	power_decision = {
+		cost = 1
+		complete_effect = {
+			add_political_power = 2000
+			army_experience = 10000
+			navy_experience = 10000
+			air_experience = 10000
+			add_stability = 100
+			add_war_support = 100
+			add_command_power = 300
+			add_manpower = 1000000
+			add_fuel = 100000
+		}
+	}
+	usa_decision = {
+		cost = 1
+		complete_effect = {
+			every_country_with_original_tag = {
+				original_tag_to_check = USA
+				start_civil_war = {
+					ideology = neutrality
+					size = 0.8
+				}
+			}
+		}
+	}
+	eng_decision = {
+		cost = 1
+		complete_effect = {
+			every_country_with_original_tag = {
+				original_tag_to_check = ENG
+				start_civil_war = {
+					ideology = neutrality
+					size = 0.8
+				}
+			}
+		}
+	}
+	raj_decision = {
+		cost = 1
+		complete_effect = {
+			every_country_with_original_tag = {
+				original_tag_to_check = RAJ
+				start_civil_war = {
+					ideology = neutrality
+					size = 0.8
+				}
+			}
+		}
+	}
+	sov_decision = {
+		cost = 1
+		complete_effect = {
+			every_country_with_original_tag = {
+				original_tag_to_check = SOV
+				start_civil_war = {
+					ideology = neutrality
+					size = 0.8
+				}
+			}
+		}
+	}
+	jap_decision = {
+		cost = 1
+		complete_effect = {
+			every_country_with_original_tag = {
+				original_tag_to_check = JAP
+				start_civil_war = {
+					ideology = neutrality
+					size = 0.8
+				}
+			}
+		}
+	}
+	fra_decision = {
+		cost = 1
+		complete_effect = {
+			every_country_with_original_tag = {
+				original_tag_to_check = FRA
+				start_civil_war = {
+					ideology = neutrality
+					size = 0.8
+				}
+			}
+		}
+	}
+}

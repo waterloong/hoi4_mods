@@ -1,0 +1,5 @@
+host_category = {
+	visible = {
+		always = yes
+	}
+}

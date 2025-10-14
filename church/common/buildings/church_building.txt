@@ -1,10 +1,10 @@
 buildings = {
-	cathedral_building = {
+	cathedral_non_shared_building = {
 		base_cost = 1000
 		per_level_extra_cost = 2000
 		max_level = 1
 		value = 5
-		icon_frame = 19		# No model is defined
+		icon_frame = 19		
 		country_modifiers = {
 			modifiers = {
 				political_power_gain = 0.1

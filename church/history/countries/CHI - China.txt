@@ -1,0 +1,9 @@
+create_country_leader = {
+	name = "Cardinal Paul Yü Pin"
+	desc = cardinal_disc
+	expire = "1978.8.16"
+	ideology = christianity
+	traits = {
+		
+	}
+}

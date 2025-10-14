@@ -1,0 +1,5 @@
+debug_church_category = {
+	visible = {
+		always = yes
+	}
+}

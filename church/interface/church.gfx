@@ -1,0 +1,10 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_ideology_christianity_group                         
+        texturefile = gfx/interface/christianity.png
+    }                                                   
+    spriteType = {                                      
+        name = GFX_buildings_cathedral
+        texturefile = gfx/interface/cathedral.png
+    }
+}s

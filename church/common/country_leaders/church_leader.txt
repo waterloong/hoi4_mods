@@ -1,0 +1,9 @@
+christianity_booster = {
+	random = no
+	sprite = 13
+	christianity_booster = 0.5
+	
+	ai_will_do = {
+		factor = 1
+	}
+}

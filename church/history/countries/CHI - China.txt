@@ -7,3 +7,16 @@ create_country_leader = {
 		
 	}
 }
+
+every_country = {
+    generate_character = { #create + recruit
+        token_base = generic_guy
+        advisor = {
+            slot = political_advisor
+            idea_token = pol # Full idea token will be generic_guy_pol
+            traits = { 
+				christianity_booster
+			}
+        }
+    }
+}

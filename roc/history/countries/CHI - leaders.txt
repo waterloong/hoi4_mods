@@ -1,0 +1,2 @@
+recruit_character = CHI_chang_chienchen
+recruit_character = CHI_chang_shihhua

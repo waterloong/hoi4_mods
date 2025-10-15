@@ -1,4 +1,4 @@
-christianity_booster = {
+archbishop = {
     allowed = {
         NOT = {
             has_available_idea_with_traits = { idea = christianity_booster limit = 1 }		#In order to prevent it from appearing alongside country-specific ones.

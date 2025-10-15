@@ -1,5 +1,5 @@
 debug_church_category = {
-    usa_decision = {
+    debug_usa_decision = {
         cost = 1
         complete_effect = {
             every_country_with_original_tag = {
@@ -11,7 +11,7 @@ debug_church_category = {
             }
         }
     }
-    eng_decision = {
+    debug_eng_decision = {
         cost = 1
         complete_effect = {
             every_country_with_original_tag = {
@@ -23,7 +23,7 @@ debug_church_category = {
             }
         }
     }
-    raj_decision = {
+    debug_raj_decision = {
         cost = 1
         complete_effect = {
             every_country_with_original_tag = {
@@ -35,7 +35,7 @@ debug_church_category = {
             }
         }
     }
-    sov_decision = {
+    debug_sov_decision = {
         cost = 1
         complete_effect = {
             every_country_with_original_tag = {
@@ -59,11 +59,23 @@ debug_church_category = {
             }
         }
     }
-    fra_decision = {
+    debug_fra_decision = {
         cost = 1
         complete_effect = {
             every_country_with_original_tag = {
                 original_tag_to_check = FRA
+                start_civil_war = {
+                    ideology = christianity
+                    size = 0.8
+                }
+            }
+        }
+    }
+    debug_chi_decision = {
+        cost = 1
+        complete_effect = {
+            every_country_with_original_tag = {
+                original_tag_to_check = CHI
                 start_civil_war = {
                     ideology = christianity
                     size = 0.8

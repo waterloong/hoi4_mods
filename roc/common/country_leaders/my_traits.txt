@@ -1,0 +1,17 @@
+leader_traits = {
+	mastermind_code_cracker = {
+		random = no
+		type = all
+		trait_type = personality_trait
+		slot = political_advisor
+		modifier = {
+			
+		}
+        non_shared_modifier = {
+            promote_cost_factor = -0.5
+        }
+        new_commander_weight = {
+            factor = 0  # Scripted starting leaders only
+        }
+	}
+}

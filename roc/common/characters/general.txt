@@ -58,6 +58,7 @@ characters = {
 			# Optional, doesn't change anything.
 			traits = {
 				mastermind_code_cracker
+                grandmaster_code_cracker
 			}
 		}
 	}
@@ -179,6 +180,8 @@ characters = {
 				original_tag = CHI
 			}
 			traits = {
+                grandmaster_code_cracker
+                mastermind_code_cracker
 			}
 		}
 	}

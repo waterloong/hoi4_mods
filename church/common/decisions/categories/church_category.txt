@@ -3,3 +3,9 @@ debug_church_category = {
 		always = yes
 	}
 }
+
+church_category = {
+	visible = {
+		always = yes
+	}
+}

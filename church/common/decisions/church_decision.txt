@@ -84,3 +84,14 @@ debug_church_category = {
         }
     }
 }
+
+
+church_category = {
+    spread_the_gospel = {
+        cost = 10
+    }
+
+    complete_effect = {
+        christianity_drift = 10        
+    }
+}

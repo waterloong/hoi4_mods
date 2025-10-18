@@ -1,8 +1,14 @@
-l_english:
-    christianity: "Christian"
-    christianity_noun: "christianity"
-    christianity_disc: "The fear of the Lord is the beginning of wisdom: and the knowledge of the holy is understanding."
-    catheral_building: "Cathedral"
-    catheral_building_desc: "For we are labourers together with God: ye are God's husbandry, ye are God's building."
-    christianity_booster: "Missionary"
-    cardinal_disc: "Paul Yu Pin was a Chinese cardinal of the Catholic Church. He served as Archbishop of Nanking."
+﻿l_english:
+    christianity:0 "Christian"
+    christianity_noun:0 "Christianity"
+    christianity_desc:0 "The fear of the Lord is the beginning of wisdom"
+    cathedral:0 "Cathedral"
+    cathedral_desc:0 "For we are labourers together with God: ye are God's husbandry, ye are God's building."
+    cathedral_plural:0 "Cathedrals"
+    christianity_booster:0 "Missionary"
+    christianity_missionary:0 "Missionary"
+    christianity_missionary_desc:0 "And that repentance and remission of sins should be preached in his name among all nations, beginning at Jerusalem."
+    christianity_drift:0 "All hail!"
+    spread_the_gospel:0 "Spread the Gospel"
+    spread_the_gospel_desc:0 "Go ye into all the world, and preach the gospel to every creature."
+

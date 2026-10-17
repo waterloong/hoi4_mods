@@ -2,6 +2,11 @@
 
 A Hearts of Iron IV mod targeting the locally installed 1.19.3 version.
 
+Christianity is also available as a political ideology, with Catholic,
+Protestant and Orthodox leader subtypes. No country is converted at startup.
+See [implementation steps](docs/implementation_steps.md) for the test procedure
+and the sequence for restoring the earlier mod's features.
+
 ## Prototype
 
 - Adds `church` as a province building, limited to one per province.

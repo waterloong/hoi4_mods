@@ -1,6 +1,6 @@
-version="0.1"
+version="0.1.0"
 tags={
-	"Ideologies"
+    "Buildings"
 }
-name="church"
-supported_version="1.16.10"
+name="Church"
+supported_version="1.19.*"

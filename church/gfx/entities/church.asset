@@ -1,0 +1,5 @@
+entity = {
+    name = "building_church"
+    pdxmesh = "church_mesh"
+    scale = 0.7
+}

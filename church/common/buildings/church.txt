@@ -1,0 +1,17 @@
+buildings = {
+    church = {
+        # Prototype cost; no gameplay modifiers or technology requirements.
+        base_cost = 1000
+        # Standard building health/valuation, matching vanilla province buildings.
+        value = 1
+        icon_frame = 32
+        special_icon = GFX_church_icon_small
+        show_on_map = 1
+        is_buildable = yes
+        infrastructure_construction_effect = yes
+        level_cap = {
+            shares_slots = no
+            province_max = 1
+        }
+    }
+}

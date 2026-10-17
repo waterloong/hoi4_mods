@@ -1,0 +1,14 @@
+objectTypes = {
+    pdxmesh = {
+        name = "church_mesh"
+        file = "gfx/models/buildings/church/church.mesh"
+        meshsettings = {
+            name = "churchShape"
+            index = 0
+            texture_diffuse = "church_diffuse.dds"
+            texture_normal = "church_normal.dds"
+            texture_specular = "church_specular.dds"
+            shader = "PdxMeshAdvancedSnow"
+        }
+    }
+}

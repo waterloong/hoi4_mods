@@ -1,0 +1,10 @@
+__pycache__/
+.publish/
+*.py[cod]
+
+# Local launcher descriptor contains a machine-specific absolute path.
+/church.mod
+
+# Inspection-only conversions of existing assets.
+/art/vanilla_strip_preview.png
+/art/user_church_dds_preview.png

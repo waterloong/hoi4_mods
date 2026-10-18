@@ -6,7 +6,6 @@ church_category = {
         visible = { tag = CHI NOT = { has_country_flag = church_china_government_chosen } }
         available = { has_war = no christianity > 0.5 }
         complete_effect = {
-            recruit_character = church_cardinal_paul_yu_pin
             set_politics = { ruling_party = christianity elections_allowed = no }
             church_cardinal_paul_yu_pin = { promote_character = { ideology = catholicism } }
             set_country_flag = church_china_government_chosen

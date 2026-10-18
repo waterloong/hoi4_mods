@@ -1,0 +1,4 @@
+church_religious_influence = {
+    enable = { always = yes }
+    christianity_drift = church_daily_support
+}

@@ -1,0 +1,6 @@
+church_support_from_buildings = {
+    color_type = good
+    value_type = number
+    precision = 3
+    category = country
+}

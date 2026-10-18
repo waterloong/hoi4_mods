@@ -158,6 +158,6 @@ for line in base.splitlines():
         fields[1]='church'
         anchors.append(';'.join(fields))
 assert len(anchors)>1000
-(ROOT/'map/buildings.txt').write_text(base.rstrip()+'\n'+'\n'.join(anchors)+'\n',encoding='utf-8')
+(ROOT/'map/buildings.txt').write_bytes((base.rstrip()+'\n'+'\n'.join(anchors)).encode('utf-8'))
 (ROOT/'art/church_geometry.json').write_text(json.dumps({'faces':faces,'colors':colors}))
 print(f'Built frame 32, {len(triangles)//3} triangles, {len(anchors)} church map anchors.')

@@ -64,3 +64,11 @@ for the first balance pass. China retains vanilla startup history and portraits;
 Chiang is reused rather than duplicated. Paul uses the game's generic portrait
 fallback because no dedicated portrait was supplied. Decisions to choose a new
 government require peace, so China may need a separate peaceful test save.
+## Log-based verification fixes
+
+The first combined load reported a direct building modifier rejection for
+`christianity_drift`, a warning about recruiting Paul from a decision, and a
+map row error at EOF. Building influence now uses a registered country modifier
+and a daily refreshed dynamic modifier. Paul is recruited at startup and only
+promoted by the Catholic decision. The map exporter no longer adds a final
+empty row. These changes still require a fresh game load to confirm resolution.

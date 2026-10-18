@@ -1,0 +1,15 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            CHI = {
+                recruit_character = church_cardinal_paul_yu_pin
+            }
+            every_country = { church_update_building_influence = yes }
+        }
+    }
+    on_daily = {
+        effect = {
+            every_country = { church_update_building_influence = yes }
+        }
+    }
+}

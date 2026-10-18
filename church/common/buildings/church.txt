@@ -13,7 +13,7 @@ buildings = {
         country_modifiers = {
             modifiers = {
                 political_power_gain = 0.01
-                christianity_drift = 0.001
+                church_support_from_buildings = 0.001
             }
         }
         level_cap = {

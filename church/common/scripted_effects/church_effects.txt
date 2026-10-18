@@ -1,0 +1,14 @@
+church_update_building_influence = {
+    set_variable = { church_daily_support = modifier@church_support_from_buildings }
+    if = {
+        limit = { check_variable = { church_daily_support > 0 } }
+        if = {
+            limit = { NOT = { has_dynamic_modifier = church_religious_influence } }
+            add_dynamic_modifier = { modifier = church_religious_influence }
+        }
+    }
+    else_if = {
+        limit = { has_dynamic_modifier = church_religious_influence }
+        remove_dynamic_modifier = church_religious_influence
+    }
+}

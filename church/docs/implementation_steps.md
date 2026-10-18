@@ -72,3 +72,12 @@ map row error at EOF. Building influence now uses a registered country modifier
 and a daily refreshed dynamic modifier. Paul is recruited at startup and only
 promoted by the Catholic decision. The map exporter no longer adds a final
 empty row. These changes still require a fresh game load to confirm resolution.
+
+## Country-specific party names
+
+Christian parties use "Church of [country]" as both their short and long names.
+Country-specific localisation reuses vanilla base country names, with ENG
+explicitly named "Church of England" as requested. CHI is "Church of China".
+Other examples include "Church of France" and "Church of Russia". Dynamic
+countries without a fixed tag-name mapping use a non-ideological name fallback.
+Rebuild these names after tag changes with `tools/build_party_names.py --game PATH`.

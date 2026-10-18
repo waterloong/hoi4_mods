@@ -1,6 +1,6 @@
 # Restoring the earlier mod
 
-Each step receives its own commit and an in-game checkpoint before the next step.
+Each step receives its own commit. Perform combined in-game verification at the end.
 
 1. Christianity ideology, three subtypes, icon, localisation and original political rules.
 2. Missionary trait and generated advisers using a unique history filename.

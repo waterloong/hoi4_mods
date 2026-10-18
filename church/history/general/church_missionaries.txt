@@ -1,0 +1,15 @@
+every_possible_country = {
+    limit = { is_dynamic_country = no }
+    generate_character = {
+        token_base = church_missionary
+        advisor = {
+            slot = political_advisor
+            traits = { christianity_booster }
+            cost = 150
+            ai_will_do = { factor = 0 }
+        }
+        portraits = {
+            army = { small = GFX_idea_generic_democratic_reformer }
+        }
+    }
+}

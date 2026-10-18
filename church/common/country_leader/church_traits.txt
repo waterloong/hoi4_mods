@@ -1,0 +1,12 @@
+leader_traits = {
+    christianity_booster = {
+        random = no
+        sprite = 13
+        christianity_drift = 0.1
+    }
+    church_catechumen = {
+        random = no
+        sprite = 13
+        christianity_acceptance = 70
+    }
+}

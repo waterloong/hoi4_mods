@@ -1,6 +1,6 @@
 buildings = {
     church = {
-        # Prototype cost; no gameplay modifiers or technology requirements.
+        # Initial balance: small national bonuses per church; no technology gate.
         base_cost = 1000
         # Standard building health/valuation, matching vanilla province buildings.
         value = 1
@@ -9,6 +9,13 @@ buildings = {
         show_on_map = 1
         is_buildable = yes
         infrastructure_construction_effect = yes
+        show_modifier = yes
+        country_modifiers = {
+            modifiers = {
+                political_power_gain = 0.01
+                christianity_drift = 0.001
+            }
+        }
         level_cap = {
             shares_slots = no
             province_max = 1

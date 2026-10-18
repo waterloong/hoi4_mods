@@ -14,7 +14,7 @@ and the sequence for restoring the earlier mod's features.
 - Adds `church` as a province building, limited to one per province.
 - Does not consume shared state building slots. Construction uses civilian factories as usual.
 - Costs 1,000 construction points, affected by infrastructure construction speed.
-- Each church grants +0.01 daily political power and +0.001 Christian drift.
+- Each church grants +0.01 daily political power and +0.01 Christian drift.
   These country bonuses stack across churches. No technology or DLC is required.
 - Uses a custom church construction icon (frame 32), a province detail icon,
   and a custom low-poly stone church model with a bell tower and cross.

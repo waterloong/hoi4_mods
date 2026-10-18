@@ -1,7 +1,7 @@
 ﻿l_english:
  church:0 "Church"
  church_plural:0 "Churches"
- church_desc:0 "A local place of worship. Each church provides +0.01 daily political power and +0.001 daily Christian support. Maximum one per province."
+ church_desc:0 "A local place of worship. Each church provides +0.01 daily political power and +0.01 daily Christian support. Maximum one per province."
  modifier_production_speed_church_factor:0 "Church construction speed"
  modifier_production_speed_church_factor_desc:0 "Modifies the construction speed of churches."
  modifier_state_production_speed_church_factor:0 "Local church construction speed"

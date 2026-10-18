@@ -8,7 +8,7 @@ Each step receives its own commit. Perform combined in-game verification at the 
 4. Optional debug civil-war decisions, restricted to debug mode.
 5. China leaders and a controlled way to choose a Christian government.
 6. Christian flags with correct ideology suffixes.
-7. Church bonuses: +0.01 daily political power and +0.001 Christian drift each.
+7. Church bonuses: +0.01 daily political power and +0.01 Christian drift each.
 
 ## Step 1: ideology
 
@@ -52,8 +52,8 @@ now present. The checks below cover the combined build.
 6. Check the Christian government's flag at country, map and small UI sizes.
    Flags reuse democratic artwork as in the earlier mod, not new cross designs.
 7. Construct a church, check the model, province cap, and national modifiers.
-   Bonuses are deliberately one tenth of the old GitHub cathedral's PP/drift
-   values because a province building can exist much more widely.
+   Political power remains conservative; Christian support per church is
+   now ten times the initial province-building value.
 8. Confirm debug civil-war decisions are hidden in normal mode. In debug mode,
    test one in a disposable save. They cost 1 PP, trigger 80 percent uprisings,
    require a target without an existing civil war, and cannot be used by the AI.

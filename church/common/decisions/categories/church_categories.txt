@@ -2,3 +2,7 @@ church_category = {
     icon = generic_political_discourse
     visible = { always = yes }
 }
+debug_church_category = {
+    icon = generic_political_discourse
+    visible = { is_debug = yes }
+}

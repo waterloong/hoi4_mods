@@ -1,0 +1,86 @@
+debug_church_category = {
+    church_debug_civil_war_usa = {
+        cost = 1
+        fire_only_once = yes
+        visible = { is_debug = yes }
+        available = {
+            USA = { exists = yes has_civil_war = no NOT = { has_government = christianity } }
+        }
+        complete_effect = {
+            USA = { start_civil_war = { ideology = christianity size = 0.8 } }
+        }
+        ai_will_do = { factor = 0 }
+    }
+    church_debug_civil_war_eng = {
+        cost = 1
+        fire_only_once = yes
+        visible = { is_debug = yes }
+        available = {
+            ENG = { exists = yes has_civil_war = no NOT = { has_government = christianity } }
+        }
+        complete_effect = {
+            ENG = { start_civil_war = { ideology = christianity size = 0.8 } }
+        }
+        ai_will_do = { factor = 0 }
+    }
+    church_debug_civil_war_raj = {
+        cost = 1
+        fire_only_once = yes
+        visible = { is_debug = yes }
+        available = {
+            RAJ = { exists = yes has_civil_war = no NOT = { has_government = christianity } }
+        }
+        complete_effect = {
+            RAJ = { start_civil_war = { ideology = christianity size = 0.8 } }
+        }
+        ai_will_do = { factor = 0 }
+    }
+    church_debug_civil_war_sov = {
+        cost = 1
+        fire_only_once = yes
+        visible = { is_debug = yes }
+        available = {
+            SOV = { exists = yes has_civil_war = no NOT = { has_government = christianity } }
+        }
+        complete_effect = {
+            SOV = { start_civil_war = { ideology = christianity size = 0.8 } }
+        }
+        ai_will_do = { factor = 0 }
+    }
+    church_debug_civil_war_jap = {
+        cost = 1
+        fire_only_once = yes
+        visible = { is_debug = yes }
+        available = {
+            JAP = { exists = yes has_civil_war = no NOT = { has_government = christianity } }
+        }
+        complete_effect = {
+            JAP = { start_civil_war = { ideology = christianity size = 0.8 } }
+        }
+        ai_will_do = { factor = 0 }
+    }
+    church_debug_civil_war_fra = {
+        cost = 1
+        fire_only_once = yes
+        visible = { is_debug = yes }
+        available = {
+            FRA = { exists = yes has_civil_war = no NOT = { has_government = christianity } }
+        }
+        complete_effect = {
+            FRA = { start_civil_war = { ideology = christianity size = 0.8 } }
+        }
+        ai_will_do = { factor = 0 }
+    }
+    church_debug_civil_war_chi = {
+        cost = 1
+        fire_only_once = yes
+        visible = { is_debug = yes }
+        available = {
+            CHI = { exists = yes has_civil_war = no NOT = { has_government = christianity } }
+        }
+        complete_effect = {
+            CHI = { start_civil_war = { ideology = christianity size = 0.8 } }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

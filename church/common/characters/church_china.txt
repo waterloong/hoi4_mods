@@ -1,0 +1,10 @@
+characters = {
+    church_cardinal_paul_yu_pin = {
+        name = church_cardinal_paul_name
+        country_leader = {
+            ideology = catholicism
+            expire = "1978.8.16"
+            traits = { }
+        }
+    }
+}

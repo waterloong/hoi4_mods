@@ -1,0 +1,4 @@
+church_category = {
+    icon = generic_political_discourse
+    visible = { always = yes }
+}

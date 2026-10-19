@@ -47,10 +47,12 @@ reader successfully parsed the exported vertices, normals and triangle indices.
 
 ## Graphics source and compatibility
 
-The active icon is the user's `art/church_user_icon.png`, imported from the
-existing Church mod's `gfx/interface/buildings/cathedral.png`. It replaces
-the initial generated illustration in both construction and province icons.
-The original artwork is preserved; only game-size resampling is applied.
+The active icon is `art/church_user_icon_borderless.png`, derived from the user's
+`art/church_user_icon.png` using built-in ImageGen. The edit prompt requested
+preserving the gold/orange church on charcoal while removing the white outer
+border, halo and lower-right sparkle, extending charcoal to all canvas edges.
+The original artwork is preserved. The borderless version is resampled into
+both construction and province icons.
 
 `art/church_source.png` was generated with the built-in ImageGen tool using:
 "A single centered small European stone church with a square bell tower,

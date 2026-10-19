@@ -33,6 +33,9 @@ d = ImageDraw.Draw(button)
 d.rectangle((0, 0, 45, 45), outline=(104, 108, 99), width=1)
 button.alpha_composite(thumb, ((46-thumb.width)//2, (46-thumb.height)//2))
 user_icon = ROOT/'art/church_user_icon.png'
+borderless_icon = ROOT/'art/church_user_icon_borderless.png'
+if borderless_icon.exists():
+    user_icon = borderless_icon
 if user_icon.exists():
     # User artwork is already a complete button; preserve its composition.
     button = Image.open(user_icon).convert('RGBA').resize((46,46), Image.Resampling.LANCZOS)

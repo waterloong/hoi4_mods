@@ -46,6 +46,7 @@ now present. The checks below cover the combined build.
    and check for +0.1 daily Christian support. Existing vanilla advisers should remain.
 4. Use `pp 1000` for test funds. Take Spread the Gospel while at peace; verify
    support increases by 10 percentage points and the 90-day cooldown applies.
+   Confirm it is available to both Christian and non-Christian governments.
 5. Raise Christian support above 50 percent. Test the Catholic China choice in
    one save and the Protestant Chiang choice in a separate fresh save. Verify
    the selected leader, subtype, ruling party, and exclusion of the other path.

@@ -6,7 +6,6 @@ church_category = {
         days_re_enable = 90
         available = {
             has_war = no
-            NOT = { has_government = christianity }
         }
         complete_effect = {
             add_popularity = { ideology = christianity popularity = 0.1 }

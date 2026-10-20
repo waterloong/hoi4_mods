@@ -47,14 +47,15 @@ reader successfully parsed the exported vertices, normals and triangle indices.
 
 ## Graphics source and compatibility
 
-The active icon is `art/church_user_icon_large_cross.png`, derived from the user's
+The active icon is `art/church_user_icon_extra_large_cross.png`, derived from the user's
 `art/church_user_icon.png` using built-in ImageGen. The edit prompt requested
 preserving the gold/orange church on charcoal while removing the white outer
 border, halo and lower-right sparkle, extending charcoal to all canvas edges.
 The original artwork is preserved. The borderless version is resampled into
 both construction and province icons.
-The latest built-in ImageGen edit enlarges only the roof cross, approximately
-doubling its width and height with thicker strokes for readability at 46 pixels.
+The latest built-in ImageGen edit enlarges only the roof cross again, to roughly
+300 pixels wide on the source canvas, with an 85-pixel stem and safe top padding
+for readability at 46 pixels. Earlier versions remain in `art/`.
 
 `art/church_source.png` was generated with the built-in ImageGen tool using:
 "A single centered small European stone church with a square bell tower,

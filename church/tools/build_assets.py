@@ -36,6 +36,9 @@ user_icon = ROOT/'art/church_user_icon.png'
 borderless_icon = ROOT/'art/church_user_icon_borderless.png'
 if borderless_icon.exists():
     user_icon = borderless_icon
+large_cross_icon = ROOT/'art/church_user_icon_large_cross.png'
+if large_cross_icon.exists():
+    user_icon = large_cross_icon
 if user_icon.exists():
     # User artwork is already a complete button; preserve its composition.
     button = Image.open(user_icon).convert('RGBA').resize((46,46), Image.Resampling.LANCZOS)

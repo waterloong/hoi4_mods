@@ -1,5 +1,4 @@
 host_category = {
-	visible = {
-		always = yes
-	}
+    icon = generic_political_discourse
+    visible = { is_ai = no }
 }

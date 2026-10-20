@@ -1,0 +1,14 @@
+CHI = {
+    if = {
+        limit = { NOT = { has_character = CHI_chang_chienchen } }
+        recruit_character = CHI_chang_chienchen
+    }
+    if = {
+        limit = { NOT = { has_character = CHI_chang_shichung } }
+        recruit_character = CHI_chang_shichung
+    }
+    if = {
+        limit = { NOT = { has_character = CHI_chang_shihhua } }
+        recruit_character = CHI_chang_shihhua
+    }
+}

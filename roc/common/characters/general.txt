@@ -18,17 +18,16 @@ characters = {
 				expert_improviser
 				fast_planner
 				fortress_buster
-				Infantry_Expert
-				Infantry_Leader
+				infantry_expert
+				infantry_leader
 				infantry_officer
-				Inflexible_Strategist
-				Logistics_Wizard
+				inflexible_strategist
+				logistics_wizard
 				naval_invader
 				naval_liason
 				offensive_doctrine
-				offensive_doctrine
 				organizer
-				panzer_Expert
+				panzer_expert
 				panzer_leader
 				paratrooper
 				skirmisher
@@ -56,7 +55,7 @@ characters = {
 			}
 			# Optional, doesn't change anything.
 			traits = {
-                grandmaster_code_cracker
+                roc_cryptographer
 			}
 		}
 	}
@@ -79,17 +78,16 @@ characters = {
 				expert_improviser
 				fast_planner
 				fortress_buster
-				Infantry_Expert
-				Infantry_Leader
+				infantry_expert
+				infantry_leader
 				infantry_officer
-				Inflexible_Strategist
-				Logistics_Wizard
+				inflexible_strategist
+				logistics_wizard
 				naval_invader
 				naval_liason
 				offensive_doctrine
-				offensive_doctrine
 				organizer
-				panzer_Expert
+				panzer_expert
 				panzer_leader
 				paratrooper
 				skirmisher
@@ -118,7 +116,7 @@ characters = {
 			}
 			# Optional, doesn't change anything.
 			traits = {
-				grandmaster_code_cracker
+				roc_cryptographer
 			}
 		}
 	}
@@ -177,7 +175,7 @@ characters = {
 				original_tag = CHI
 			}
 			traits = {
-                crusader
+                roc_volunteer_advocate
 			}
 		}
 	}

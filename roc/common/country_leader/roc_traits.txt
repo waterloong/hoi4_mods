@@ -1,5 +1,5 @@
 leader_traits = {
-	grandmaster_code_cracker = {
+	roc_cryptographer = {
 		# random = no
 		# decryption_factor = 1
 		# encryption_factor = 1
@@ -14,7 +14,7 @@ leader_traits = {
 		decryption_power = 65535
 	}
 
-    crusader = {
+    roc_volunteer_advocate = {
         send_volunteer_factor = 1
         sprite = 13
     }

@@ -1,6 +1,4 @@
-version="0.1"
-tags={
-	"Fixes"
-}
+version="0.2.0"
+tags={ "Fixes" }
 name="roc"
-supported_version="1.16.10"
+supported_version="1.19.*"

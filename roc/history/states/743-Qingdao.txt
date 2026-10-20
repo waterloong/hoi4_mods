@@ -4,8 +4,8 @@ state = {
 	name = "STATE_743"
 	manpower = 385000
 	state_category = megalopolis
-	
-	
+
+
 	history = {
 
 		owner = CHI
@@ -46,5 +46,5 @@ state = {
 		10000
 	}
 
-	local_supplies = 0.0 
+	local_supplies = 0.0
 }

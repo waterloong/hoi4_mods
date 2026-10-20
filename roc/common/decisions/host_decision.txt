@@ -1,4 +1,745 @@
 host_category = {
+	res_decision = {
+		cost = 1
+		complete_effect = {
+			every_scientist = {
+				limit = {
+					has_scientist_level = {
+						specialization = specialization_air
+						level > 0
+					}
+				}
+				add_scientist_level = {
+					level = 1
+					specialization = specialization_air
+				}
+				add_scientist_trait = scientist_trait_aircraft_specialist
+				add_scientist_trait = scientist_trait_jet_expert
+				add_scientist_trait = scientist_trait_bombs_expert
+				add_scientist_trait = scientist_trait_electronics_specialist
+				add_scientist_trait = scientist_trait_guidance_systems_expert
+				add_scientist_trait = scientist_trait_helicopter_expert
+				add_scientist_trait = scientist_trait_bright
+				add_scientist_trait = scientist_trait_genius
+				add_scientist_trait = scientist_trait_brilliant_theorist
+				add_scientist_trait = scientist_trait_gifted_engineer
+			}
+			every_scientist = {
+				limit = {
+					has_scientist_level = {
+						specialization = specialization_land
+						level > 0
+					}
+				}
+				add_scientist_level = {
+					level = 1
+					specialization = specialization_land
+				}
+				add_scientist_trait = scientist_trait_artillery_specialist
+				add_scientist_trait = scientist_trait_armored_specialist
+				add_scientist_trait = scientist_trait_bright
+				add_scientist_trait = scientist_trait_genius
+				add_scientist_trait = scientist_trait_brilliant_theorist
+				add_scientist_trait = scientist_trait_gifted_engineer
+			}
+			every_scientist = {
+				limit = {
+					has_scientist_level = {
+						specialization = specialization_naval
+						level > 0
+					}
+				}
+				add_scientist_level = {
+					level = 1
+					specialization = specialization_naval
+				}
+				add_scientist_trait = scientist_trait_submarine_specialist
+				add_scientist_trait = scientist_trait_surface_ship_specialist
+				add_scientist_trait = scientist_trait_bright
+				add_scientist_trait = scientist_trait_genius
+				add_scientist_trait = scientist_trait_brilliant_theorist
+				add_scientist_trait = scientist_trait_gifted_engineer
+			}
+		}
+	}
+	sci_decision = {
+		cost = 1
+		complete_effect = {
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle2
+				category = light_air
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle3
+				category = medium_air
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle4
+				category = heavy_air
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle5
+				category = armor
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle6
+				category = cat_light_armor
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle7
+				category = cat_medium_armor
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle8
+				category = cat_heavy_armor
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle9
+				category = artillery
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle10
+				category = cat_anti_tank
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle11
+				category = cat_anti_air
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle12
+				category = naval_air
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle13
+				category = infantry_weapons
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle14
+				category = motorized_equipment
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle15
+				category = cat_mechanized_equipment
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle16
+				category = naval_equipment
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle17
+				category = rocketry
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle18
+				category = nuclear
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle19
+				category = industry
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle20
+				category = electronics
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle21
+				category = cat_fortification
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle22
+				category = land_doctrine
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle23
+				category = air_doctrine
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle24
+				category = naval_doctrine
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle25
+				category = strategic_destruction_tree
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle26
+				category = battlefield_support_tree
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle27
+				category = operational_integrity_tree
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle28
+				category = jet_technology
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle29
+				category = trade_interdiction_tree
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle30
+				category = convoy_defense_tree
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle31
+				category = light_fighter
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle32
+				category = cat_heavy_fighter
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle33
+				category = tactical_bomber
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle34
+				category = cat_strategic_bomber
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle35
+				category = naval_bomber
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle36
+				category = cas_bomber
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle37
+				category = ship_modules_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle38
+				category = dd_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle39
+				category = cl_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle40
+				category = ca_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle41
+				category = cv_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle42
+				category = bc_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle43
+				category = bb_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle44
+				category = shbb_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle45
+				category = ss_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle46
+				category = tp_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle47
+				category = synth_resources
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle48
+				category = fleet_in_being_tree
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle49
+				category = encryption_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle50
+				category = decryption_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle51
+				category = computing_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle52
+				category = radar_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle53
+				category = infantry_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle54
+				category = marine_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle55
+				category = construction_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle56
+				category = excavation_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle57
+				category = submarine_doctrine
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle58
+				category = air_equipment
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle59
+				category = cat_mobile_warfare
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle60
+				category = cat_superior_firepower
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle61
+				category = cat_grand_battle_plan
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle62
+				category = cat_mass_assault
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle63
+				category = cat_base_strike
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle64
+				category = cat_trade_interdiction
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle65
+				category = cat_fleet_in_being
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle66
+				category = cat_strategic_destruction
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle67
+				category = cat_battlefield_support
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle68
+				category = cat_operational_integrity
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle69
+				category = night_vision
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle70
+				category = base_strike_main
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle71
+				category = mot_rockets
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle72
+				category = support_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle73
+				category = para_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle74
+				category = engineers_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle75
+				category = recon_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle76
+				category = mountaineers_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle77
+				category = military_police_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle78
+				category = hospital_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle79
+				category = logistics_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle80
+				category = signal_company_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle81
+				category = maintenance_company_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle82
+				category = naval_mines
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle83
+				category = concentrated_industry_category
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle84
+				category = dispersed_industry_category
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle85
+				category = asw_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle86
+				category = naval_minesweeping
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle87
+				category = naval_minelaying
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle88
+				category = cat_scout_plane
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle89
+				category = train_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle90
+				category = cat_production
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle91
+				category = cat_synth_rubber
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle92
+				category = cat_synth_oil
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle93
+				category = cat_armored_cars
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle94
+				category = cat_special_forces_generic
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle95
+				category = cat_torpedoes
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle96
+				category = cat_ship_light_battery
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle97
+				category = cat_ship_medium_battery
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle98
+				category = cat_ship_heavy_battery
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle99
+				category = air_equipment
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle100
+				category = plane_modules_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle101
+				category = cat_air_guns
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle102
+				category = cat_air_engine
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle103
+				category = cat_air_bombs
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle104
+				category = special_forces_doctrine
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle105
+				category = cat_maritime_patrol
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle106
+				category = cat_mountaineers_doctrine
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle107
+				category = cat_marines_doctrine
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle108
+				category = cat_paratroopers_doctrine
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle109
+				category = naval_armor
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle110
+				category = naval_artillery
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle111
+				category = helicopter_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle112
+				category = pykrete_tech
+			}
+			add_tech_bonus = {
+				uses = 100
+				bonus = 1
+				name = CHI_oracle113
+				category = transport_planes_cat
+			}
+			add_research_slot = 10
+		}
+	}
 	tech_decision = {
 		cost = 1
 		complete_effect = {
@@ -2109,12 +2850,23 @@ host_category = {
 				specialization = all
 				value = 20
 			}
-			add_research_slot = 3
 		}
 	}
 	weapon_decision = {
 		cost = 1
 		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = amphibious_mechanized_equipment_2
+				amount = 100000
+			}
+			add_equipment_to_stockpile = {
+				type = super_heavy_artillery_equipment_1
+				amount = 10000
+			}
+			add_equipment_to_stockpile = {
+				type = self_propelled_super_heavy_artillery_equipment_1
+				amount = 1000
+			}
 			add_equipment_to_stockpile = {
 				type = infantry_equipment_3
 				amount = 1000000
@@ -2194,7 +2946,7 @@ host_category = {
 			}
 			add_offsite_building = {
 				type = dockyard
-				level = 10
+				level = 20
 			}
 		}
 	}
@@ -2212,7 +2964,7 @@ host_category = {
 			add_fuel = 100000
 		}
 	}
-	usa_decision = {
+	civil_war_usa_decision = {
 		cost = 1
 		complete_effect = {
 			every_country_with_original_tag = {
@@ -2224,7 +2976,7 @@ host_category = {
 			}
 		}
 	}
-	eng_decision = {
+	civil_war_eng_decision = {
 		cost = 1
 		complete_effect = {
 			every_country_with_original_tag = {
@@ -2236,7 +2988,7 @@ host_category = {
 			}
 		}
 	}
-	raj_decision = {
+	civil_war_raj_decision = {
 		cost = 1
 		complete_effect = {
 			every_country_with_original_tag = {
@@ -2248,7 +3000,7 @@ host_category = {
 			}
 		}
 	}
-	sov_decision = {
+	civil_war_sov_decision = {
 		cost = 1
 		complete_effect = {
 			every_country_with_original_tag = {
@@ -2260,7 +3012,7 @@ host_category = {
 			}
 		}
 	}
-	jap_decision = {
+	civil_war_jap_decision = {
 		cost = 1
 		complete_effect = {
 			every_country_with_original_tag = {
@@ -2272,7 +3024,7 @@ host_category = {
 			}
 		}
 	}
-	fra_decision = {
+	civil_war_fra_decision = {
 		cost = 1
 		complete_effect = {
 			every_country_with_original_tag = {
@@ -2281,6 +3033,277 @@ host_category = {
 					ideology = neutrality
 					size = 0.8
 				}
+			}
+		}
+	}
+	civil_war_ger_decision = {
+		cost = 1
+		complete_effect = {
+			every_country_with_original_tag = {
+				original_tag_to_check = GER
+				start_civil_war = {
+					ideology = neutrality
+					size = 0.8
+				}
+			}
+		}
+	}
+	civil_war_por_decision = {
+		cost = 1
+		complete_effect = {
+			every_country_with_original_tag = {
+				original_tag_to_check = POR
+				start_civil_war = {
+					ideology = neutrality
+					size = 0.8
+				}
+			}
+		}
+	}
+	peace_usa_decision = {
+		cost = 1
+		complete_effect = {
+			every_country_with_original_tag = {
+				original_tag_to_check = USA
+				start_civil_war = {
+					ideology = neutrality
+					size = 0.8
+				}
+			}
+		}
+	}
+	peace_eng_decision = {
+		cost = 1
+		complete_effect = {
+			start_peace_conference = {
+				tag = ENG
+				score_factor = 1
+			}
+		}
+	}
+	peace_raj_decision = {
+		cost = 1
+		complete_effect = {
+			start_peace_conference = {
+				tag = ENG
+				score_factor = 1
+			}
+		}
+	}
+	peace_sov_decision = {
+		cost = 1
+		complete_effect = {
+			start_peace_conference = {
+				tag = ENG
+				score_factor = 1
+			}
+		}
+	}
+	peace_jap_decision = {
+		cost = 1
+		complete_effect = {
+			start_peace_conference = {
+				tag = ENG
+				score_factor = 1
+			}
+		}
+	}
+	peace_fra_decision = {
+		cost = 1
+		complete_effect = {
+			start_peace_conference = {
+				tag = ENG
+				score_factor = 1
+			}
+		}
+	}
+	peace_ger_decision = {
+		cost = 1
+		complete_effect = {
+			start_peace_conference = {
+				tag = ENG
+				score_factor = 1
+			}
+		}
+	}
+	peace_por_decision = {
+		cost = 1
+		complete_effect = {
+			start_peace_conference = {
+				tag = ENG
+				score_factor = 1
+			}
+		}
+	}
+	dipl_decision = {
+		cost = 1
+		complete_effect = {
+			set_rule = {
+				can_send_volunteers = yes
+				can_boost_own_ideology = yes
+				can_create_collaboration_government = yes
+				can_force_government = yes
+				can_create_factions = yes
+			}
+		}
+	}
+	resource_decision = {
+		cost = 1
+		complete_effect = {
+			add_resource = {
+				type = chromium
+				amount = 1000
+				state = 743
+			}
+			add_resource = {
+				type = steel
+				amount = 10000
+				state = 743
+			}
+			add_resource = {
+				type = tungsten
+				amount = 1000
+				state = 743
+			}
+			add_resource = {
+				type = oil
+				amount = 1000
+				state = 743
+			}
+			add_resource = {
+				type = aluminium
+				amount = 1000
+				state = 743
+			}
+			add_resource = {
+				type = rubber
+				amount = 1000
+				state = 743
+			}
+			add_resource = {
+				type = coal
+				amount = 10000
+				state = 743
+			}
+		}
+	}
+	gx_resource_decision = {
+		cost = 1
+		complete_effect = {
+			add_resource = {
+				type = chromium
+				amount = 1000
+				state = 599
+			}
+			add_resource = {
+				type = steel
+				amount = 10000
+				state = 599
+			}
+			add_resource = {
+				type = tungsten
+				amount = 1000
+				state = 599
+			}
+			add_resource = {
+				type = oil
+				amount = 1000
+				state = 599
+			}
+			add_resource = {
+				type = aluminium
+				amount = 1000
+				state = 599
+			}
+			add_resource = {
+				type = rubber
+				amount = 1000
+				state = 599
+			}
+			add_resource = {
+				type = coal
+				amount = 10000
+				state = 599
+			}
+		}
+	}
+	gd_resource_decision = {
+		cost = 1
+		complete_effect = {
+			add_resource = {
+				type = chromium
+				amount = 1000
+				state = 592
+			}
+			add_resource = {
+				type = steel
+				amount = 10000
+				state = 592
+			}
+			add_resource = {
+				type = tungsten
+				amount = 1000
+				state = 592
+			}
+			add_resource = {
+				type = oil
+				amount = 1000
+				state = 592
+			}
+			add_resource = {
+				type = aluminium
+				amount = 1000
+				state = 592
+			}
+			add_resource = {
+				type = rubber
+				amount = 1000
+				state = 592
+			}
+			add_resource = {
+				type = coal
+				amount = 10000
+				state = 592
+			}
+		}
+	}
+	mck_resource_decision = {
+		cost = 1
+		complete_effect = {
+			add_resource = {
+				type = chromium
+				amount = 1000
+				state = 715
+			}
+			add_resource = {
+				type = steel
+				amount = 10000
+				state = 715
+			}
+			add_resource = {
+				type = tungsten
+				amount = 1000
+				state = 715
+			}
+			add_resource = {
+				type = oil
+				amount = 1000
+				state = 715
+			}
+			add_resource = {
+				type = aluminium
+				amount = 1000
+				state = 715
+			}
+			add_resource = {
+				type = rubber
+				amount = 1000
+				state = 715
+			}
+			add_resource = {
+				type = coal
+				amount = 10000
+				state = 715
 			}
 		}
 	}

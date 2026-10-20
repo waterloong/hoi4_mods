@@ -1803,7 +1803,6 @@ host_category = {
         complete_effect = {
             set_rule = {
                 can_send_volunteers = yes
-                can_boost_own_ideology = yes
                 can_create_collaboration_government = yes
                 can_force_government = yes
                 can_create_factions = yes

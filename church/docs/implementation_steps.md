@@ -44,6 +44,9 @@ now present. The checks below cover the combined build.
 2. Confirm all five ideology groups are present and the Christian icon fits.
 3. Check that a Missionary adviser is offered for 150 political power. Hire one
    and check for +0.1 daily Christian support. Existing vanilla advisers should remain.
+   The character should have a generated personal name; "Missionary" is the
+   trait title, not the person's name. Test generation in a fresh game: existing
+   saves may retain adviser names generated before the localisation fix.
 4. Use `pp 1000` for test funds. Take Spread the Gospel while at peace; verify
    support increases by 10 percentage points and the 90-day cooldown applies.
    Confirm it is available to both Christian and non-Christian governments.

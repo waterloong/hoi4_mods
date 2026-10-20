@@ -1,6 +1,8 @@
 every_possible_country = {
     limit = { is_dynamic_country = no }
     generate_character = {
+        # Leave this token unlocalised, as with vanilla generated advisers,
+        # so the engine chooses a personal name from the country's name pool.
         token_base = church_missionary
         advisor = {
             slot = political_advisor

@@ -1996,4 +1996,188 @@ host_category = {
             factor = 0
         }
     }
+    roc_tianjin_resource_decision = {
+        cost = 1
+        complete_effect = {
+            add_resource = {
+                type = chromium
+                amount = 1000
+                state = 608
+            }
+            add_resource = {
+                type = steel
+                amount = 10000
+                state = 608
+            }
+            add_resource = {
+                type = tungsten
+                amount = 1000
+                state = 608
+            }
+            add_resource = {
+                type = oil
+                amount = 1000
+                state = 608
+            }
+            add_resource = {
+                type = aluminium
+                amount = 1000
+                state = 608
+            }
+            add_resource = {
+                type = rubber
+                amount = 1000
+                state = 608
+            }
+            add_resource = {
+                type = coal
+                amount = 10000
+                state = 608
+            }
+        }
+        available = {
+            owns_state = 608
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    roc_jinan_resource_decision = {
+        cost = 1
+        complete_effect = {
+            add_resource = {
+                type = chromium
+                amount = 1000
+                state = 1038
+            }
+            add_resource = {
+                type = steel
+                amount = 10000
+                state = 1038
+            }
+            add_resource = {
+                type = tungsten
+                amount = 1000
+                state = 1038
+            }
+            add_resource = {
+                type = oil
+                amount = 1000
+                state = 1038
+            }
+            add_resource = {
+                type = aluminium
+                amount = 1000
+                state = 1038
+            }
+            add_resource = {
+                type = rubber
+                amount = 1000
+                state = 1038
+            }
+            add_resource = {
+                type = coal
+                amount = 10000
+                state = 1038
+            }
+        }
+        available = {
+            owns_state = 1038
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    roc_chengdu_resource_decision = {
+        cost = 1
+        complete_effect = {
+            add_resource = {
+                type = chromium
+                amount = 1000
+                state = 1041
+            }
+            add_resource = {
+                type = steel
+                amount = 10000
+                state = 1041
+            }
+            add_resource = {
+                type = tungsten
+                amount = 1000
+                state = 1041
+            }
+            add_resource = {
+                type = oil
+                amount = 1000
+                state = 1041
+            }
+            add_resource = {
+                type = aluminium
+                amount = 1000
+                state = 1041
+            }
+            add_resource = {
+                type = rubber
+                amount = 1000
+                state = 1041
+            }
+            add_resource = {
+                type = coal
+                amount = 10000
+                state = 1041
+            }
+        }
+        available = {
+            owns_state = 1041
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    roc_kunming_resource_decision = {
+        cost = 1
+        complete_effect = {
+            add_resource = {
+                type = chromium
+                amount = 1000
+                state = 325
+            }
+            add_resource = {
+                type = steel
+                amount = 10000
+                state = 325
+            }
+            add_resource = {
+                type = tungsten
+                amount = 1000
+                state = 325
+            }
+            add_resource = {
+                type = oil
+                amount = 1000
+                state = 325
+            }
+            add_resource = {
+                type = aluminium
+                amount = 1000
+                state = 325
+            }
+            add_resource = {
+                type = rubber
+                amount = 1000
+                state = 325
+            }
+            add_resource = {
+                type = coal
+                amount = 10000
+                state = 325
+            }
+        }
+        available = {
+            owns_state = 325
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
 }

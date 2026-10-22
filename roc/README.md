@@ -32,6 +32,11 @@ Chinese commanders. It is separate from the Church mod.
 
 ## Verification
 
+Resource decisions also cover Tianjin (state 608, Beijing), Jinan (1038),
+Chengdu (1041), and Kunming (325, Yunnan). Each matches the Qingdao/Guangzhou
+reward amounts and costs 1 PP, requires state ownership, and is disabled for AI.
+Resources apply to the containing state rather than just the city province.
+
 The existing game log confirmed the old invalid `cl_tech` research category,
 duplicate China leader recruitment and invalid old technology IDs. Those paths
 are corrected. Installed-definition checks pass with no identifier issues:
